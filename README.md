@@ -6,6 +6,7 @@ Mingyi Yan, [Zhengyuan Yang](https://zyang-ur.github.io/), [Lijuan Wang](https:/
 
 
 ## 📢 News
+- [2025.6] We release all human recording at [Google-Drive](x).
 - [2024.6] We release the arXiv paper.
 - [2024.9] Accepted by NeurIPS 2024 D&B.
 - [2024.10] We released the data at [Huggingface dataset](https://huggingface.co/VideoGUI). Please stay tuned for further updates.
