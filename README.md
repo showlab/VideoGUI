@@ -6,7 +6,7 @@ Mingyi Yan, [Zhengyuan Yang](https://zyang-ur.github.io/), [Lijuan Wang](https:/
 
 
 ## 📢 News
-- [2025.6] We release all human recording at [Google-Drive](x).
+- [2025.6] We release all human recording at [Google-Drive](https://drive.google.com/file/d/1d6u2ZLafY67aVKjIQeyzbR-amcA66LdK/view?usp=sharing).
 - [2024.6] We release the arXiv paper.
 - [2024.9] Accepted by NeurIPS 2024 D&B.
 - [2024.10] We released the data at [Huggingface dataset](https://huggingface.co/VideoGUI). Please stay tuned for further updates.
@@ -25,6 +25,27 @@ Mingyi Yan, [Zhengyuan Yang](https://zyang-ur.github.io/), [Lijuan Wang](https:/
 **Instructional videos with human demonstration:** We source novel tasks from high-quality instructional videos, with annotators replicating these to reproduce effects.
 
 **Hierarchical planning and actions:** We provide detailed annotations with planning procedures and recorded actions for hierarchical evaluation.
+
+## 📂 Data Structure [Google-Drive](https://drive.google.com/file/d/1d6u2ZLafY67aVKjIQeyzbR-amcA66LdK/view?usp=sharing)
+```
+VideoGUI/
+└── DaVinci/  # software
+    └── DV_8/  # task
+        └── keylog/  # recording
+            ├── 2024-05-27_11-02-22-126188/  # mid-level
+            ├── 2024-05-27_11-03-06-590299/
+            ├── 2024-05-27_11-30-30-996960/
+            └── 2024-05-27_11-05-04-143397/
+```
+
+Each task directory contains:
+- The start or end frame, whether an image or a video, serves as the visual query.
+- The project file such as `.drp` for DaVinci.
+
+Each mid-level directory contains:
+- an `.mkv` video file, which is the screen recording
+- a `_full.json` file that stores the corresponding action metadata.
+- `arranged/` directory, which store the screenshot in order.
 
 ## 🔨 Online Environment
 If you want to set up the online environment, refer to the tutorial by [GUI-Thinker](https://github.com/showlab/GUI-Thinker).
