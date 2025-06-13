@@ -6,7 +6,7 @@ Mingyi Yan, [Zhengyuan Yang](https://zyang-ur.github.io/), [Lijuan Wang](https:/
 
 
 ## 📢 News
-- [2025.6] We release all metadata and human recording at [Google-Drive](https://drive.google.com/file/d/1d6u2ZLafY67aVKjIQeyzbR-amcA66LdK/view?usp=sharing).
+- [2025.6] We release all metadata and human recording at [Google-Drive](https://drive.google.com/file/d/13bjnIQhhEUe9eX07YwIdWGnNskVmTUc5/view).
 - [2024.6] We release the arXiv paper.
 - [2024.9] Accepted by NeurIPS 2024 D&B.
 - [2024.10] We released the data at [Huggingface dataset](https://huggingface.co/VideoGUI). Please stay tuned for further updates.
@@ -26,7 +26,7 @@ Mingyi Yan, [Zhengyuan Yang](https://zyang-ur.github.io/), [Lijuan Wang](https:/
 
 **Hierarchical planning and actions:** We provide detailed annotations with planning procedures and recorded actions for hierarchical evaluation.
 
-## 📂 Data Structure [Google-Drive](https://drive.google.com/file/d/1d6u2ZLafY67aVKjIQeyzbR-amcA66LdK/view?usp=sharing)
+## 📂 Data Structure [Google-Drive](https://drive.google.com/file/d/13bjnIQhhEUe9eX07YwIdWGnNskVmTUc5/view)
 ```
 VideoGUI/
 └── DaVinci/  # software
